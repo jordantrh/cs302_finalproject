@@ -1,3 +1,30 @@
+-----------------------------------------------------------------------------------------------------------------------------------
 GitHub: https://github.com/jordantrh/cs302_finalproject
+-----------------------------------------------------------------------------------------------------------------------------------
+Challenge 4 Summary:
 
+For Challenge 4, beyond the general project development work completed, I have been working on understanding auto-follow mechanics for drones. Since our project is focused on implementing a "VibeBot" that can follow it's owner around and do tricks, one of the most important mechanics will be its ability track the movements of an object. Because of the theoretical nature of implementing deep learning to accomplish this task, most of my focus has been on reading various articles on the subject, diving into You Only Look Once (YOLO) algorithms on YouTube, and attempting to get various tutorials to work. The seemingly best tutorial I have found is located at the GitHub https://github.com/mikel-brostrom/yolov8_tracking. I was able to get this tutorial to run and have been going through it to figure out how everything works, so that our own implementation can be created (which will take much longer than 6 hours). Included in our final project repository is a file tutorial.ipynb, which is the file that can run the tutorial when all dependencies are installed. Because of strange issues with my PC and anaconda to get 3rd party code to work, this took longer than expected. If you are wanting to run this for yourself, you will need to follow the steps in the GitHub I just mentioned. I'm sure you're probably not using a PC, so it'll be smoother (or maybe you are and are just better at this stuff).
 
+  Articles and Videos:
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7284695/
+    https://blog.roboflow.com/yolov8-tracking-and-counting/
+    https://www.youtube.com/watch?v=OS5qI9YBkfk
+    https://www.youtube.com/watch?v=IuVnYfg4vPQ
+    https://www.youtube.com/watch?v=NhCQBQqTAhE
+    chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf
+    https://www.stereolabs.com/blog/performance-of-yolo-v5-v7-and-v8/
+-----------------------------------------------------------------------------------------------------------------------------------
+Challenge 4 Rubric:
+
+Research Completed:   20
+Tutorial Running:     20
+
+Total:                40
+-----------------------------------------------------------------------------------------------------------------------------------
+Challenge 4 Time Log:
+
+Project planning and development:   ~2.5 hr
+General Auto-Follow Research:       ~1.5 hr
+YOLO Specific Research:             ~1.5 hr
+Tutorial Research:                  ~1.0 hr
+"yolo_v8_tracking" Implementation:  ~2.0 hr
