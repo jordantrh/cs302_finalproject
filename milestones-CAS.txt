@@ -27,10 +27,8 @@ Challenge 4 Time-Log
 ~ 2h research on object segmentation, tracking, and distance estimation
     - Yolo models for object segmentation + tracking methods that go on top of yolo models and what they do
     - distance estimation methods, yolodistance + simple estimates using known widths of objects
-~ 1h research on face detection and unsupervised face recognition
-    - looking at commonly applied methods and datasets that don't have privacy concerns (synthface)
+~ 2h research on face detection and unsupervised face recognition
+    - looking at commonly applied methods for face detection, particularly unsupervised methods
+    - looking at datasets that don't have privacy concerns (synface) for training facial embeddings
+    - examining different neural architectures for generating face embeddings
 ~ 1h finding an appropriate open-source repository and implementing a demo from https://github.com/ageitgey/face_recognition for facial recognition
-
-
-
-
