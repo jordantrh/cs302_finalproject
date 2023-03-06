@@ -10,10 +10,10 @@ deep learning to accomplish this task, most of my focus has been on reading vari
 You Only Look Once (YOLO) algorithms on YouTube, and attempting to get various tutorials to work. The seemingly best tutorial I
 have found is located at the GitHub https://github.com/mikel-brostrom/yolov8_tracking. I was able to get this tutorial to run and
 have been going through it to figure out how everything works, so that our own implementation can be created (which will take much
-longer than 6 hours). Included in our final project repository is a file tutorial.ipynb, which is the file that can run the
+longer than 6 hours). Included in our final project repository is a file auto-follow-tutorial.ipynb, which is the file that can run the
 tutorial when all dependencies are installed. Because of strange issues with my PC and anaconda to get 3rd party code to work, this
-took longer than expected. If you are wanting to run this for yourself, you will need to follow the steps in the GitHub I just
-mentioned. I'm sure you're probably not using a PC, so it'll be smoother (or maybe you are and are just better at this stuff).
+took longer than expected. However, the outputs of the jupyter notebook will show that I was able to compile it and complete the 
+tutorial.
 
   Articles and Videos:
     https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7284695/
