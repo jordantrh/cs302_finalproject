@@ -1,0 +1,36 @@
+Challenge #4
+
+Colin Smith
+csmit536@vols.utk.edu
+GitHub for project: https://github.com/jordantrh/cs302_finalproject/colin
+
+Challenge 4 Summary:
+
+The majority of the time spent on this challenge was doing a quick overview of research/sota methods for performing person tracking and recognition to enable the robot to follow a person. While I am not going to be the person working directly on tracking, I will be integrating with it and I have machine learning experience (though very little computer vision experience) so it was useful for me to look at that task so that I can help my teammates out. The rest of the time was spent looking into facial recognition models and running an example (mostly copied, but also adapted from) opensource repository using my webcam to perform recognition on myself. 
+
+In all, the challenge went fine. Instructions for the rubric section were unclear, and I did not find the task of writing it out valuable. I do not expect the tasks or the rubric listed below to have much similarity at all to the tasks I actually end up needing to work on in the future.
+
+
+Rubric for next steps:
+
+Tasks:
+These are incomplete and as a group, likely not enough work, but its a starting point.
+
+- Perform facial recognition on known individuals: 20pts
+    - Train new yolov8 segmentation model?
+    - Train new embedding model?
+- Integrate facial recognition with person identification/tracking: 10pts
+- Distance estimation for known people (probably based on height): 10pts
+
+
+Challenge 4 Time-Log
+~ 2h research on object segmentation, tracking, and distance estimation
+    - Yolo models for object segmentation + tracking methods that go on top of yolo models and what they do
+    - distance estimation methods, yolodistance + simple estimates using known widths of objects
+~ 1h research on face detection and unsupervised face recognition
+    - looking at commonly applied methods and datasets that don't have privacy concerns (synthface)
+~ 1h finding an appropriate open-source repository and implementing a demo from https://github.com/ageitgey/face_recognition for facial recognition
+
+
+
+
