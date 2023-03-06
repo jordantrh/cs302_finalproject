@@ -1,0 +1,47 @@
+﻿Challenge #4
+
+
+Matthew Webb
+mwebb51@vols.utk.edu
+Github for project: https://github.com/jordantrh/cs302_finalproject        
+
+
+Challenge 4 summary:
+
+
+My task for this project is to implement pathfinding for Vibebot. Since I have little experience in this area, most of my time was spent researching autonomous navigation and how to use sensors to determine surroundings. While doing this research I realized that some of my skills from my more hardware based programming classes might play a role in helping me accomplish this task since they gave me experience with Pmods and how they communicate with different microcontrollers/FPGAS. To implement path finding, I intend on using the Pmod ToF. This Pmod is a LIDAR sensor which will allow our robot to determine its surroundings. This challenge went well as it introduced me to a new topic and helped me gain an understanding of what type of work I will be doing on this project. My plans moving forward are to work on getting the lidar sensors to work and to begin figuring out how to use them to map environments.
+
+
+Time log
+~30 minutes general research on pmods. Will probably end up using the Pmod ToF: Time of Flight Sensor since it is lidar and several of the videos and examples reference the use of lidar to map an environment. The next time is deciding whether to code the sensors in c or c++. I have more experience using Pmods in Cbut for this project I believe C++ will be more useful since I will have to implement path finding algorithms using the data from the LIDAR. I still need to determine what microcontroller to use but it will more than likely be the TMC4 launchpad
+~1.5 hours youtube tech talk on autonomous pathfinding
+        What Is Autonomous Navigation? | Autonomous Navigation, Part 1
+        Understanding the Particle Filter |  | Autonomous Navigation, Part 2
+        Understanding SLAM Using Pose Graph Optimization | Autonomous Navigation, Part 3
+        Path Planning with A* and RRT | Autonomous Navigation, Part 4
+        What Is Extended Object Tracking? | Autonomous Navigation, Part 5
+        Metrics for System Assessment | Autonomous Navigation, Part 6
+~1.5 hours tech talk on sensor fusion and tracking
+        Understanding Sensor Fusion and Tracking, Part 1: What Is Sensor Fusion?
+        https://youtu.be/0rlvvYgmTvI
+https://youtu.be/hN8dL55rP5I        
+Understanding Sensor Fusion and Tracking, Part 4: Tracking a Single Object With an IMM Filter
+Understanding Sensor Fusion and Tracking, Part 5: How to Track Multiple Objects at Once
+Understanding Sensor Fusion and Tracking, Part 6: What Is Track-Level Fusion?
+~30 minutes: Reading the following articles on different path finding algorithms.
+        https://fab.cba.mit.edu/classes/865.21/topics/path_planning/robotic.html
+        https://www.researchgate.net/publication/307568457_Path_Planning_for_Autonomous_Mobile_Robot_Based_on_Safe_Space#:~:text=Path%20planning%20is%20essential%20for,mobile%20robot%20without%20environmental%20information.
+
+
+https://www.geeksforgeeks.org/a-search-algorithm/ 
+
+
+~1 hour attempting to implement djikistra’s algorithm to gain practice with path finding algorithms
+
+
+Rubric:
+
+
+10: Getting all three of the lidar sensors to work
+15: Getting the sensors to work with an algorithm to start building information on the their surroundings
+15: Implementing an algorithm to use that data to find a path to follow its owner
