@@ -35,9 +35,20 @@ Total:                40
 -----------------------------------------------------------------------------------------------------------------------------------
 Challenge 4 Time Log:
 
-Project planning and development:   ~2.5 hr
 General Auto-Follow Research:       ~1.5 hr
 YOLO Specific Research:             ~1.5 hr
 Tutorial Research:                  ~1.0 hr
 "yolo_v8_tracking" Implementation:  ~2.0 hr
+-----------------------------------------------------------------------------------------------------------------------------------
+Next Plan:
+
+The goal next is to convert the tutorial into something directly applicable to our project. This will mean organizing a dataset of
+people in various states of walking to develop a classification model that the drone could use.
+
+Rubric:
+
+Developing Dataset:                 20
+Attempt at Classification Model:    20
+
+Total:                              40
 -----------------------------------------------------------------------------------------------------------------------------------
