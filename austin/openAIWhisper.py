@@ -1,4 +1,4 @@
-// Make sure your python version is > 3.11. 
+// Make sure your python version is < 3.11. 
 // This can be found by typing "python --version" in commandline
 // - Austin
 
