@@ -7,6 +7,11 @@ import numpy as np
 from pathlib import Path
 import torch
 
+import download_weights
+
+# download weights if they don't exist
+download_weights.download_weights()
+
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[0]  # yolov5 strongsort root directory
 WEIGHTS = ROOT / 'weights'
