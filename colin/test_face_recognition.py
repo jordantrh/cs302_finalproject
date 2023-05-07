@@ -27,9 +27,8 @@ while(True):
 
     ret, frame = video_capture.read()
     if process % 2 == 0:
-        rgbframe = frame[:, :, ::-1]
-        face_locations = face_recognition.face_locations(rgbframe)
-        face_encodings = face_recognition.face_encodings(rgbframe, face_locations)
+        face_locations = face_recognition.face_locations(frame)
+        face_encodings = face_recognition.face_encodings(frame, face_locations)
         face_names = []
         for face_encoding in face_encodings:
             matches = face_recognition.compare_faces(known_face_encodings, face_encoding)

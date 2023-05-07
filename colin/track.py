@@ -7,6 +7,8 @@ import numpy as np
 from pathlib import Path
 import torch
 
+import face_recognition
+
 import download_weights
 
 # download weights if they don't exist
@@ -24,7 +26,8 @@ ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative
 from ultralytics.nn.autobackend import AutoBackend
 from ultralytics.yolo.utils.checks import check_imgsz, check_imshow
 from ultralytics.yolo.utils.ops import Profile, non_max_suppression, scale_boxes, process_mask, process_mask_native
-from ultralytics.yolo.utils.plotting import Annotator, colors, save_one_box
+from ultralytics.yolo.utils.plotting import Annotator, colors
+from ultralytics.yolo.data.augment import LetterBox
 
 from trackers.multi_tracker_zoo import create_tracker
 
@@ -86,7 +89,24 @@ outputs = [None] * bs
 seen, windows, dt = 0, [], (Profile(), Profile(), Profile(), Profile())
 curr_frames, prev_frames = [None] * bs, [None] * bs
 
-from ultralytics.yolo.data.augment import LetterBox
+# if you want to detect yourself, add (img_path, name) tuples to the input_face_pairs list below
+#input_face_pairs = [('colin.jpg', 'colin')]
+input_face_pairs = []
+known_face_encodings = []
+known_face_names = []
+
+for path, name in input_face_pairs:
+    image = face_recognition.load_image_file(path)
+    encoding = face_recognition.face_encodings(image)[0]
+    known_face_encodings.append(encoding)
+    known_face_names.append(name)
+
+face_locations = []
+face_encodings = []
+face_names = []
+
+checked_people = {}
+
 def transform(im0):
     im = np.stack([LetterBox(imgsz, pt, stride=stride)(image=x) for x in im0])
     im = im[..., ::-1].transpose((0, 3, 1, 2))  # BGR to RGB, BHWC to BCHW
@@ -163,7 +183,7 @@ while True:
             with torch.no_grad():
                 with dt[3]:
                     outputs[i] = tracker_list[i].update(det.cpu(), im0)
-            
+
             # draw boxes for visualization
             if len(outputs[i]) > 0:
                 
@@ -183,6 +203,32 @@ while True:
                     cls = output[5]
                     conf = output[6]
 
+                    # face detection
+                    face_check = False
+
+                    # only check once per person
+                    if names[int(output[5])] == 'person' and int(output[4]) not in checked_people:
+                        # if we havent checked for faces yet
+                        if not face_check:
+                            face_locations = face_recognition.face_locations(frame)
+                            face_check = True
+                            # iterate over detected faces, if the location overlaps with the person, encode and compare
+                            for (top, right, bottom, left) in face_locations:
+                                if (output[0] < left < output[2]) and (output[1] < top < output[3]):
+                                    face_encodings = face_recognition.face_encodings(frame, face_locations)
+                                    face_names = []
+                                    for face_encoding in face_encodings:
+                                        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
+                                        name = "Unknown"
+                                        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
+                                        if face_distances:
+                                            best_match_index = np.argmin(face_distances)
+                                            if matches[best_match_index]:
+                                                name = known_face_names[best_match_index]
+                                        face_names.append(name)
+                                    checked_people[int(output[4])] = name
+                                    break
+
                     # TODO add distance estimation
                     '''if names[cls] == 'person':
                         focal_length = 52
@@ -197,11 +243,15 @@ while True:
                     if show_vid:
                         c = int(cls)  # integer class
                         id = int(id)  # integer id
-                        label = None if hide_labels else (f'{id} {names[c]}' if hide_conf else \
-                            (f'{id} {conf:.2f}' if hide_class else f'{id} {names[c]} {conf:.2f}'))
+                        # if c is a person, check if we have a name for them
+                        if names[c] == 'person' and id in checked_people:
+                            name = checked_people[id]
+                        else:
+                            name = names[c]
+                        label = None if hide_labels else (f'{id} {name}' if hide_conf else \
+                            (f'{id} {conf:.2f}' if hide_class else f'{id} {name} {conf:.2f}'))
                         color = colors(c, True)
                         annotator.box_label(bbox, label, color=color)
-                        
         else:
             pass
             
