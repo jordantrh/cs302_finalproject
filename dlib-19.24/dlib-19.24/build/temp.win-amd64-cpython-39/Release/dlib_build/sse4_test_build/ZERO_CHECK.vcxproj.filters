@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jorda\OneDrive\Desktop\Research\yolov8_tracking\dlib-19.24\dlib-19.24\build\temp.win-amd64-cpython-39\Release\dlib_build\sse4_test_build\CMakeFiles\b63de51897df7e66891f88cc5f602399\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{826F3506-4432-3612-BD6B-4277C3095B35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

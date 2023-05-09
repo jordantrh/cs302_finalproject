@@ -1,0 +1,1004 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      Build started 5/1/2023 6:06:24 PM.
+      Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.74
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      Build started 5/1/2023 6:06:25 PM.
+      Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.57
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-frb3ca"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-frb3ca"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-frb3ca
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_70ebc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:26 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-frb3ca\\cmTC_70ebc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_70ebc.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-frb3ca\\Debug\\".
+          Creating directory "cmTC_70ebc.dir\\Debug\\cmTC_70ebc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_70ebc.dir\\Debug\\cmTC_70ebc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70ebc.dir\\Debug\\\\" /Fd"cmTC_70ebc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\anaconda3\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70ebc.dir\\Debug\\\\" /Fd"cmTC_70ebc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\anaconda3\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-frb3ca\\Debug\\cmTC_70ebc.exe" /INCREMENTAL /ILK:"cmTC_70ebc.dir\\Debug\\cmTC_70ebc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-frb3ca/Debug/cmTC_70ebc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-frb3ca/Debug/cmTC_70ebc.lib" /MACHINE:X64  /machine:x64 cmTC_70ebc.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_70ebc.vcxproj -> C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-frb3ca\\Debug\\cmTC_70ebc.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_70ebc.dir\\Debug\\cmTC_70ebc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_70ebc.dir\\Debug\\cmTC_70ebc.tlog\\cmTC_70ebc.lastbuildstate".
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-frb3ca\\cmTC_70ebc.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-ikx7et"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-ikx7et"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-ikx7et
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_22cb8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:26 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ikx7et\\cmTC_22cb8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_22cb8.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ikx7et\\Debug\\".
+          Creating directory "cmTC_22cb8.dir\\Debug\\cmTC_22cb8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_22cb8.dir\\Debug\\cmTC_22cb8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_22cb8.dir\\Debug\\\\" /Fd"cmTC_22cb8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\jorda\\anaconda3\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_22cb8.dir\\Debug\\\\" /Fd"cmTC_22cb8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\jorda\\anaconda3\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ikx7et\\Debug\\cmTC_22cb8.exe" /INCREMENTAL /ILK:"cmTC_22cb8.dir\\Debug\\cmTC_22cb8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-ikx7et/Debug/cmTC_22cb8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-ikx7et/Debug/cmTC_22cb8.lib" /MACHINE:X64  /machine:x64 cmTC_22cb8.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_22cb8.vcxproj -> C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ikx7et\\Debug\\cmTC_22cb8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_22cb8.dir\\Debug\\cmTC_22cb8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_22cb8.dir\\Debug\\cmTC_22cb8.tlog\\cmTC_22cb8.lastbuildstate".
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ikx7et\\cmTC_22cb8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/check_if_sse4_instructions_executable_on_host.cmake:13 (try_compile)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/set_compiler_specific_options.cmake:13 (include)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:33 (include)"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_sse4"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/sse4_test_build"
+    buildResult:
+      variable: "test_for_sse4_worked"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/sse4_test_build
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:30 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        CustomBuild:
+          Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\make_this_build_fail.vcxproj" (3) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "make_this_build_fail.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\Debug\\".
+          Creating directory "make_this_build_fail.dir\\Debug\\make_thi.91239549.tlog\\".
+        InitializeBuildStatus:
+          Creating "make_this_build_fail.dir\\Debug\\make_thi.91239549.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        CustomBuild:
+          Building Custom Rule C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_sse4/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"make_this_build_fail.dir\\Debug\\\\" /Fd"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\Debug\\make_this_build_fail.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_sse4\\this_file_doesnt_compile.cpp"
+          this_file_doesnt_compile.cpp
+        C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_sse4\\this_file_doesnt_compile.cpp(2,1): fatal  error C1189: #error:  "This file doesn't compile!" [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\make_this_build_fail.vcxproj]
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\make_this_build_fail.vcxproj" (default targets) -- FAILED.
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ALL_BUILD.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ALL_BUILD.vcxproj" (default target) (1) ->
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\make_this_build_fail.vcxproj" (default target) (3) ->
+        (ClCompile target) -> 
+          C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_sse4\\this_file_doesnt_compile.cpp(2,1): fatal  error C1189: #error:  "This file doesn't compile!" [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\make_this_build_fail.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.75
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/check_if_avx_instructions_executable_on_host.cmake:13 (try_compile)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/set_compiler_specific_options.cmake:17 (include)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:33 (include)"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_avx"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/avx_test_build"
+    buildResult:
+      variable: "test_for_avx_worked"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/avx_test_build
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:33 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        CustomBuild:
+          Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\make_this_build_fail.vcxproj" (3) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "make_this_build_fail.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\Debug\\".
+          Creating directory "make_this_build_fail.dir\\Debug\\make_thi.AE220A29.tlog\\".
+        InitializeBuildStatus:
+          Creating "make_this_build_fail.dir\\Debug\\make_thi.AE220A29.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        CustomBuild:
+          Building Custom Rule C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_avx/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"make_this_build_fail.dir\\Debug\\\\" /Fd"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\Debug\\make_this_build_fail.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_avx\\this_file_doesnt_compile.cpp"
+          this_file_doesnt_compile.cpp
+        C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_avx\\this_file_doesnt_compile.cpp(2,1): fatal  error C1189: #error:  "This file doesn't compile!" [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\make_this_build_fail.vcxproj]
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\make_this_build_fail.vcxproj" (default targets) -- FAILED.
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ALL_BUILD.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ALL_BUILD.vcxproj" (default target) (1) ->
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\make_this_build_fail.vcxproj" (default target) (3) ->
+        (ClCompile target) -> 
+          C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_avx\\this_file_doesnt_compile.cpp(2,1): fatal  error C1189: #error:  "This file doesn't compile!" [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\make_this_build_fail.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.98
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/set_compiler_specific_options.cmake:21 (include)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:33 (include)"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_neon"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/neon_test_build
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:34 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        CustomBuild:
+          Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\neon_test.vcxproj" (3) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "neon_test.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\Debug\\".
+          Creating directory "neon_test.dir\\Debug\\neon_test.tlog\\".
+        InitializeBuildStatus:
+          Creating "neon_test.dir\\Debug\\neon_test.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        CustomBuild:
+          Building Custom Rule C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_neon/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"neon_test.dir\\Debug\\\\" /Fd"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\Debug\\neon_test.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp"
+          neon_test.cpp
+        C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp(3,1): fatal  error C1189: #error:  "No NEON" [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\neon_test.vcxproj]
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\neon_test.vcxproj" (default targets) -- FAILED.
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ALL_BUILD.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ALL_BUILD.vcxproj" (default target) (1) ->
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\neon_test.vcxproj" (default target) (3) ->
+        (ClCompile target) -> 
+          C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp(3,1): fatal  error C1189: #error:  "No NEON" [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\neon_test.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.80
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/set_compiler_specific_options.cmake:91 (check_type_size)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:33 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-d1qout"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-d1qout"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-d1qout
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_54d7c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:35 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-d1qout\\cmTC_54d7c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_54d7c.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-d1qout\\Debug\\".
+          Creating directory "cmTC_54d7c.dir\\Debug\\cmTC_54d7c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_54d7c.dir\\Debug\\cmTC_54d7c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54d7c.dir\\Debug\\\\" /Fd"cmTC_54d7c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-d1qout\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54d7c.dir\\Debug\\\\" /Fd"cmTC_54d7c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-d1qout\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-d1qout\\Debug\\cmTC_54d7c.exe" /INCREMENTAL /ILK:"cmTC_54d7c.dir\\Debug\\cmTC_54d7c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-d1qout/Debug/cmTC_54d7c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-d1qout/Debug/cmTC_54d7c.lib" /MACHINE:X64  /machine:x64 cmTC_54d7c.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_54d7c.vcxproj -> C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-d1qout\\Debug\\cmTC_54d7c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_54d7c.dir\\Debug\\cmTC_54d7c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_54d7c.dir\\Debug\\cmTC_54d7c.tlog\\cmTC_54d7c.lastbuildstate".
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-d1qout\\cmTC_54d7c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:253 (check_include_file)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/set_compiler_specific_options.cmake:91 (check_type_size)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:33 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-g8v4ar"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-g8v4ar"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-g8v4ar
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e0308.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:36 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-g8v4ar\\cmTC_e0308.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e0308.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-g8v4ar\\Debug\\".
+          Creating directory "cmTC_e0308.dir\\Debug\\cmTC_e0308.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e0308.dir\\Debug\\cmTC_e0308.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0308.dir\\Debug\\\\" /Fd"cmTC_e0308.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-g8v4ar\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0308.dir\\Debug\\\\" /Fd"cmTC_e0308.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-g8v4ar\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-g8v4ar\\Debug\\cmTC_e0308.exe" /INCREMENTAL /ILK:"cmTC_e0308.dir\\Debug\\cmTC_e0308.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-g8v4ar/Debug/cmTC_e0308.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-g8v4ar/Debug/cmTC_e0308.lib" /MACHINE:X64  /machine:x64 cmTC_e0308.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_e0308.vcxproj -> C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-g8v4ar\\Debug\\cmTC_e0308.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e0308.dir\\Debug\\cmTC_e0308.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e0308.dir\\Debug\\cmTC_e0308.tlog\\cmTC_e0308.lastbuildstate".
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-g8v4ar\\cmTC_e0308.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:254 (check_include_file)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/set_compiler_specific_options.cmake:91 (check_type_size)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:33 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-akh8vj"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-akh8vj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-akh8vj
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_efbd8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:37 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-akh8vj\\cmTC_efbd8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_efbd8.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-akh8vj\\Debug\\".
+          Creating directory "cmTC_efbd8.dir\\Debug\\cmTC_efbd8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_efbd8.dir\\Debug\\cmTC_efbd8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efbd8.dir\\Debug\\\\" /Fd"cmTC_efbd8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-akh8vj\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efbd8.dir\\Debug\\\\" /Fd"cmTC_efbd8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-akh8vj\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-akh8vj\\Debug\\cmTC_efbd8.exe" /INCREMENTAL /ILK:"cmTC_efbd8.dir\\Debug\\cmTC_efbd8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-akh8vj/Debug/cmTC_efbd8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-akh8vj/Debug/cmTC_efbd8.lib" /MACHINE:X64  /machine:x64 cmTC_efbd8.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_efbd8.vcxproj -> C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-akh8vj\\Debug\\cmTC_efbd8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_efbd8.dir\\Debug\\cmTC_efbd8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_efbd8.dir\\Debug\\cmTC_efbd8.tlog\\cmTC_efbd8.lastbuildstate".
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-akh8vj\\cmTC_efbd8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/set_compiler_specific_options.cmake:91 (check_type_size)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:33 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-bhx4j6"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-bhx4j6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SIZE_OF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-bhx4j6
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_59bb2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:37 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-bhx4j6\\cmTC_59bb2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_59bb2.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-bhx4j6\\Debug\\".
+          Creating directory "cmTC_59bb2.dir\\Debug\\cmTC_59bb2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_59bb2.dir\\Debug\\cmTC_59bb2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_59bb2.dir\\Debug\\\\" /Fd"cmTC_59bb2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-bhx4j6\\SIZE_OF_VOID_PTR.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          SIZE_OF_VOID_PTR.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_59bb2.dir\\Debug\\\\" /Fd"cmTC_59bb2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-bhx4j6\\SIZE_OF_VOID_PTR.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-bhx4j6\\Debug\\cmTC_59bb2.exe" /INCREMENTAL /ILK:"cmTC_59bb2.dir\\Debug\\cmTC_59bb2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-bhx4j6/Debug/cmTC_59bb2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-bhx4j6/Debug/cmTC_59bb2.lib" /MACHINE:X64  /machine:x64 cmTC_59bb2.dir\\Debug\\SIZE_OF_VOID_PTR.obj
+          cmTC_59bb2.vcxproj -> C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-bhx4j6\\Debug\\cmTC_59bb2.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_59bb2.dir\\Debug\\cmTC_59bb2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_59bb2.dir\\Debug\\cmTC_59bb2.tlog\\cmTC_59bb2.lastbuildstate".
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-bhx4j6\\cmTC_59bb2.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindBLAS.cmake:367 (check_function_exists)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindBLAS.cmake:411 (check_blas_libraries)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/find_blas.cmake:431 (find_package)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:588 (include)"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-7adhor"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-7adhor"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_POSITION_INDEPENDENT_CODE: "True"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-7adhor
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bb6cb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:38 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\cmTC_bb6cb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bb6cb.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\Debug\\".
+          Creating directory "cmTC_bb6cb.dir\\Debug\\cmTC_bb6cb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bb6cb.dir\\Debug\\cmTC_bb6cb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb6cb.dir\\Debug\\\\" /Fd"cmTC_bb6cb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb6cb.dir\\Debug\\\\" /Fd"cmTC_bb6cb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\Debug\\cmTC_bb6cb.exe" /INCREMENTAL /ILK:"cmTC_bb6cb.dir\\Debug\\cmTC_bb6cb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-7adhor/Debug/cmTC_bb6cb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-7adhor/Debug/cmTC_bb6cb.lib" /MACHINE:X64  /machine:x64 cmTC_bb6cb.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol sgemm_ referenced in function main [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\cmTC_bb6cb.vcxproj]
+        C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\Debug\\cmTC_bb6cb.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\cmTC_bb6cb.vcxproj]
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\cmTC_bb6cb.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\cmTC_bb6cb.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol sgemm_ referenced in function main [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\cmTC_bb6cb.vcxproj]
+          C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\Debug\\cmTC_bb6cb.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-7adhor\\cmTC_bb6cb.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.49
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindBLAS.cmake:463 (find_package)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/find_blas.cmake:431 (find_package)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:588 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-5lvaot"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-5lvaot"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_POSITION_INDEPENDENT_CODE: "True"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-5lvaot
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8f010.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:39 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-5lvaot\\cmTC_8f010.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8f010.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-5lvaot\\Debug\\".
+          Creating directory "cmTC_8f010.dir\\Debug\\cmTC_8f010.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8f010.dir\\Debug\\cmTC_8f010.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f010.dir\\Debug\\\\" /Fd"cmTC_8f010.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-5lvaot\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f010.dir\\Debug\\\\" /Fd"cmTC_8f010.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-5lvaot\\src.c"
+        C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-5lvaot\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-5lvaot\\cmTC_8f010.vcxproj]
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-5lvaot\\cmTC_8f010.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-5lvaot\\cmTC_8f010.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-5lvaot\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-5lvaot\\cmTC_8f010.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindBLAS.cmake:463 (find_package)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/find_blas.cmake:431 (find_package)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:588 (include)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-wonp0o"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-wonp0o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_POSITION_INDEPENDENT_CODE: "True"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-wonp0o
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0b657.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:39 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-wonp0o\\cmTC_0b657.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0b657.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-wonp0o\\Debug\\".
+          Creating directory "cmTC_0b657.dir\\Debug\\cmTC_0b657.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0b657.dir\\Debug\\cmTC_0b657.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b657.dir\\Debug\\\\" /Fd"cmTC_0b657.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-wonp0o\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b657.dir\\Debug\\\\" /Fd"cmTC_0b657.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-wonp0o\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-wonp0o\\Debug\\cmTC_0b657.exe" /INCREMENTAL /ILK:"cmTC_0b657.dir\\Debug\\cmTC_0b657.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-wonp0o/Debug/cmTC_0b657.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-wonp0o/Debug/cmTC_0b657.lib" /MACHINE:X64  /machine:x64 cmTC_0b657.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-wonp0o\\cmTC_0b657.vcxproj]
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-wonp0o\\cmTC_0b657.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-wonp0o\\cmTC_0b657.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-wonp0o\\cmTC_0b657.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.49
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindBLAS.cmake:463 (find_package)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/find_blas.cmake:431 (find_package)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:588 (include)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-yhizyd"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-yhizyd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_POSITION_INDEPENDENT_CODE: "True"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-yhizyd
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5f232.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:06:40 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-yhizyd\\cmTC_5f232.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5f232.dir\\Debug\\".
+          Creating directory "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-yhizyd\\Debug\\".
+          Creating directory "cmTC_5f232.dir\\Debug\\cmTC_5f232.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5f232.dir\\Debug\\cmTC_5f232.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f232.dir\\Debug\\\\" /Fd"cmTC_5f232.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-yhizyd\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f232.dir\\Debug\\\\" /Fd"cmTC_5f232.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-yhizyd\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-yhizyd\\Debug\\cmTC_5f232.exe" /INCREMENTAL /ILK:"cmTC_5f232.dir\\Debug\\cmTC_5f232.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-yhizyd/Debug/cmTC_5f232.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeScratch/TryCompile-yhizyd/Debug/cmTC_5f232.lib" /MACHINE:X64  /machine:x64 cmTC_5f232.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-yhizyd\\cmTC_5f232.vcxproj]
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-yhizyd\\cmTC_5f232.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-yhizyd\\cmTC_5f232.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-yhizyd\\cmTC_5f232.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/check_if_sse4_instructions_executable_on_host.cmake:13 (try_compile)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/set_compiler_specific_options.cmake:13 (include)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:33 (include)"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_sse4"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/sse4_test_build"
+    buildResult:
+      variable: "test_for_sse4_worked"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/sse4_test_build
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:08:54 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        CustomBuild:
+          All outputs are up-to-date.
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\make_this_build_fail.vcxproj" (3) on node 1 (default targets).
+        InitializeBuildStatus:
+          Touching "make_this_build_fail.dir\\Debug\\make_thi.91239549.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          All outputs are up-to-date.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"make_this_build_fail.dir\\Debug\\\\" /Fd"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\Debug\\make_this_build_fail.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_sse4\\this_file_doesnt_compile.cpp"
+          this_file_doesnt_compile.cpp
+        C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_sse4\\this_file_doesnt_compile.cpp(2,1): fatal  error C1189: #error:  "This file doesn't compile!" [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\make_this_build_fail.vcxproj]
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\make_this_build_fail.vcxproj" (default targets) -- FAILED.
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ALL_BUILD.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\ALL_BUILD.vcxproj" (default target) (1) ->
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\make_this_build_fail.vcxproj" (default target) (3) ->
+        (ClCompile target) -> 
+          C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_sse4\\this_file_doesnt_compile.cpp(2,1): fatal  error C1189: #error:  "This file doesn't compile!" [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\sse4_test_build\\make_this_build_fail.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/check_if_avx_instructions_executable_on_host.cmake:13 (try_compile)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/set_compiler_specific_options.cmake:17 (include)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:33 (include)"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_avx"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/avx_test_build"
+    buildResult:
+      variable: "test_for_avx_worked"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/avx_test_build
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:08:55 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        CustomBuild:
+          All outputs are up-to-date.
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\make_this_build_fail.vcxproj" (3) on node 1 (default targets).
+        InitializeBuildStatus:
+          Touching "make_this_build_fail.dir\\Debug\\make_thi.AE220A29.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          All outputs are up-to-date.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"make_this_build_fail.dir\\Debug\\\\" /Fd"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\Debug\\make_this_build_fail.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_avx\\this_file_doesnt_compile.cpp"
+          this_file_doesnt_compile.cpp
+        C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_avx\\this_file_doesnt_compile.cpp(2,1): fatal  error C1189: #error:  "This file doesn't compile!" [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\make_this_build_fail.vcxproj]
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\make_this_build_fail.vcxproj" (default targets) -- FAILED.
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ALL_BUILD.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\ALL_BUILD.vcxproj" (default target) (1) ->
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\make_this_build_fail.vcxproj" (default target) (3) ->
+        (ClCompile target) -> 
+          C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_avx\\this_file_doesnt_compile.cpp(2,1): fatal  error C1189: #error:  "This file doesn't compile!" [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\avx_test_build\\make_this_build_fail.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/set_compiler_specific_options.cmake:21 (include)"
+      - "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt:33 (include)"
+    directories:
+      source: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_neon"
+      binary: "C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/neon_test_build
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 5/1/2023 6:08:56 PM.
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        CustomBuild:
+          All outputs are up-to-date.
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\neon_test.vcxproj" (3) on node 1 (default targets).
+        InitializeBuildStatus:
+          Touching "neon_test.dir\\Debug\\neon_test.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          All outputs are up-to-date.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"neon_test.dir\\Debug\\\\" /Fd"C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\Debug\\neon_test.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp"
+          neon_test.cpp
+        C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp(3,1): fatal  error C1189: #error:  "No NEON" [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\neon_test.vcxproj]
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\neon_test.vcxproj" (default targets) -- FAILED.
+        Done Building Project "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ALL_BUILD.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\ALL_BUILD.vcxproj" (default target) (1) ->
+        "C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\neon_test.vcxproj" (default target) (3) ->
+        (ClCompile target) -> 
+          C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp(3,1): fatal  error C1189: #error:  "No NEON" [C:\\Users\\jorda\\OneDrive\\Desktop\\Research\\yolov8_tracking\\dlib-19.24\\dlib-19.24\\build\\temp.win-amd64-cpython-39\\Release\\dlib_build\\neon_test_build\\neon_test.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 1
+...

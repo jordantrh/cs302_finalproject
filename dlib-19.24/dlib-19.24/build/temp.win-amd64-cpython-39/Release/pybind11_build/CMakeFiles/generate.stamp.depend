@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/external/pybind11/CMakeLists.txt
+C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/external/pybind11/tools/FindPythonLibsNew.cmake
+C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/external/pybind11/tools/pybind11Tools.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeParseArguments.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/FindPythonInterp.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/GNUInstallDirs.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake

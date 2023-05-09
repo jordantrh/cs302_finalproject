@@ -1,0 +1,17 @@
+names:
+- Cocio Cup
+- Cup
+- Halloween cup
+- Hand painted cup
+- White Cup
+- cup
+nc: 6
+roboflow:
+  license: Public Domain
+  project: cup-detection-v2
+  url: https://universe.roboflow.com/nicolai-hoirup-nielsen/cup-detection-v2/dataset/3
+  version: 3
+  workspace: nicolai-hoirup-nielsen
+test: test/images
+train: train/images
+val: valid/images

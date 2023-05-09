@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/3.26.3/CMakeCCompiler.cmake
+C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/3.26.3/CMakeCXXCompiler.cmake
+C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/3.26.3/CMakeRCCompiler.cmake
+C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/CMakeFiles/3.26.3/CMakeSystem.cmake
+C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_neon/CMakeLists.txt
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCInformation.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Windows.cmake
+C:/Users/jorda/anaconda3/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake

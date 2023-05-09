@@ -1,0 +1,10 @@
+^C:\USERS\JORDA\ONEDRIVE\DESKTOP\RESEARCH\YOLOV8_TRACKING\DLIB-19.24\DLIB-19.24\DLIB\CMAKE_UTILS\TEST_FOR_SSE4\CMAKELISTS.TXT
+setlocal
+C:\Users\jorda\anaconda3\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_sse4 -BC:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/sse4_test_build --check-stamp-file C:/Users/jorda/OneDrive/Desktop/Research/yolov8_tracking/dlib-19.24/dlib-19.24/build/temp.win-amd64-cpython-39/Release/dlib_build/sse4_test_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
