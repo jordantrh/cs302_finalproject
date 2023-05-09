@@ -1,28 +1,41 @@
-#import tellopy
-from djitellopy import Tello
+import tellopy
+#from djitellopy import Tello
 from queue import Queue
 import time
 
-tello = Tello()
+tello = tellopy.Tello()
 tello.connect()
 queue = Queue()
-print(tello.get_battery())
+#print(tello.get_battery())
 text = input("Enter text: ")
 
 def commands(command, command2):
     texts = command
     if "takeoff" == texts:
         tello.takeoff()
-        time.sleep(3)
+        #time.sleep(3)
         print("takeoff")
 
     if "forward" == texts:
-        tello.move_forward(command2)
+        tello.forward(command2)
         print("forward")
         print(command2)
+
     if "back" == texts:
+        tello.backward(command2)
         print("back")
         print(command2)
+
+    if "right" == texts:
+        tello.right(command2)
+        print("right")
+        print(command2)
+
+    if "left" == texts:
+        tello.left(command2)
+        print("left")
+        print(command2)
+
     if "follow" == texts:
         print("follow")
 
@@ -30,20 +43,14 @@ def commands(command, command2):
         tello.land()
         print("land")
 
-    if "counter" == texts:
-        tello.rotate_counter_clockwise(command2)
+    if "counterclockwise" == texts:
+        tello.counter_clockwise(command2)
         print("counter")
 
     if "clockwise" == texts:
         print("clockwise")
         print(command2)
-        tello.rotate_clockwise(command2)
-
-    if "follow" == texts:
-        #
-
-
-
+        tello.clockwise(command2)
 
 
 def find_number(text):
@@ -65,15 +72,15 @@ def find_number(text):
 
 def direction(text, index):
 
-    if "forward" == text[index + 1] or "back" == text[index + 1] or "clockwise" == text[index + 1] or "counter" == text[index + 1]:
+    if "forward" == text[index + 1] or "back" == text[index + 1] or "left" == text[index + 1] or "right" == text[index + 1] or "clockwise" == text[index + 1] or "counterclockwise" == text[index + 1]:
         queue.put(text[index + 1])
         number = find_number(text[index + 2])
         queue.put(number)
-    elif "forward" == text[index + 2] or "back" == text[index + 2] or "clockwise" == text[index + 2] or "counter" == text[index + 2]:
+    elif "forward" == text[index + 2] or "back" == text[index + 2] or "left" == text[index + 2] or "right" == text[index + 2] or "clockwise" == text[index + 2] or "counterclockwise" == text[index + 2]:
         queue.put(text[index + 2])
         number = find_number(text[index + 3])
         queue.put(number)
-    elif "forward" == text[index + 3] or "back" == text[index + 3] or "clockwise" == text[index + 3] or "counter" == text[index + 3]:
+    elif "forward" == text[index + 3] or "back" == text[index + 3] or "left" == text[index + 3] or "right" == text[index + 3] or "clockwise" == text[index + 3] or "counterclockwise" == text[index + 3]:
         queue.put(text[index + 3])
         number = find_number(text[index + 4])
         queue.put(number)
@@ -87,14 +94,15 @@ def queue_text(text):
     for i in range(len(search)):
         if "move" == search[i]:
             direction(search, i)
-        elif "takeoff" == search[i]:
-            queue.put(search[i])
+        elif "takeoff" == search[i] or "take off" == search[i]:
+            queue.put("takeoff")
         elif "land" == search[i]:
             queue.put(search[i])
         elif "rotate" == search[i]:
             direction(search, i)
         elif "follow" == search[i]:
             queue.put(search[i])
+
 
     print(str(search))
 
@@ -117,9 +125,9 @@ def move(distance):
 while not queue.empty():
     j = queue.get(0)
     k = 0
-    if j == "forward" or j == "back" or j == "clockwise" or j == "counter":
+    if j == "forward" or j == "back" or j == "clockwise" or j == "counterclockwise":
         k = queue.get(0)
     commands(j, k)
 
 
-tello.disconnect()
+
