@@ -33,10 +33,14 @@ def commands(command, command2):
     if "counter" == texts:
         tello.rotate_counter_clockwise(command2)
         print("counter")
+
     if "clockwise" == texts:
         print("clockwise")
         print(command2)
         tello.rotate_clockwise(command2)
+
+    if "follow" == texts:
+        #
 
 
 
@@ -89,11 +93,26 @@ def queue_text(text):
             queue.put(search[i])
         elif "rotate" == search[i]:
             direction(search, i)
+        elif "follow" == search[i]:
+            queue.put(search[i])
 
     print(str(search))
 
 
 queue_text(text)
+
+
+#negative counterclockwise
+def rotation(angle):
+    if angle < 0:
+        commands('counter', angle)
+    else:
+        commands('clockwise', angle)
+
+
+def move(distance):
+    commands('forward', distance)
+
 
 while not queue.empty():
     j = queue.get(0)
