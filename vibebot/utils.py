@@ -1,26 +1,37 @@
+'''
+This file contains various helper functions for the main script. Specifically, it contains functions for:
+- depth estimation
+- audio processing, adapted from: https://github.com/davabase/whisper_real_time
+- shortest path algorithm for following
+'''
+
+
+from datetime import datetime, timedelta
+import io
 import numpy as np
+import os
+from queue import Queue
 import speech_recognition as sr
+from sys import platform
+from tempfile import NamedTemporaryFile
+import torch
 import whisper
 
-from queue import Queue
-from tempfile import NamedTemporaryFile
-from sys import platform
-from datetime import datetime, timedelta
-import torch
-import os
-import io
 
+# estimate depth of object from known width, focal length, and pixel width
 def depth_estimation(known_width, focal_length, pixel_width):
     return (known_width * focal_length) / pixel_width
 
+
+# process audio data from the queue to text
 def process_audio(data_queue, audio_source, phrase_time, last_sample, transcription, audio_model, temp_file):
     now = datetime.utcnow()
     phrase_complete = False
     # If enough time has passed between recordings, consider the phrase complete.
-    # Clear the current working audio buffer to start over with the new data.
     if phrase_time and now - phrase_time > timedelta(seconds=3):
         last_sample = bytes()
         phrase_complete = True
+
     # This is the last time we received new audio data from the queue.
     phrase_time = now
 
@@ -42,7 +53,6 @@ def process_audio(data_queue, audio_source, phrase_time, last_sample, transcript
     text = result['text'].strip()
 
     # If we detected a pause between recordings, add a new item to our transcripion.
-    # Otherwise edit the existing one.
     if phrase_complete:
         transcription.append(text)
     else:
@@ -52,23 +62,20 @@ def process_audio(data_queue, audio_source, phrase_time, last_sample, transcript
     os.system('cls' if os.name=='nt' else 'clear')
     output_text = ' '.join(transcription)
     for line in transcription:
-        print(line)
-    # Flush stdout.
-    print('', end='', flush=True) 
+        print('STT: '+line)
+    
     if phrase_complete:
         transcription = ['']
     return output_text, transcription, phrase_time, last_sample
 
+# set up the audio recorder
 def set_up_recorder():
     model = 'base'
 
-    # The last time a recording was retreived from the queue.
-    # Thread safe Queue for passing data from the threaded recording callback.
     data_queue = Queue()
-    # We use SpeechRecognizer to record our audio because it has a nice feauture where it can detect when speech ends.
+    
     recorder = sr.Recognizer()
     recorder.energy_threshold = 1000
-    # Definitely do this, dynamic energy compensation lowers the energy threshold dramtically to a point where the SpeechRecognizer never stops recording.
     recorder.dynamic_energy_threshold = False
 
     # Prevents permanent application hang and crash by using the wrong Microphone
@@ -90,8 +97,7 @@ def set_up_recorder():
     model = model
     if model != "large":
         model = model + ".en"
-    #import pdb
-    #pdb.set_trace()
+    
     audio_model = whisper.load_model(model)
 
     temp_file = NamedTemporaryFile().name
@@ -100,6 +106,7 @@ def set_up_recorder():
         recorder.adjust_for_ambient_noise(audio_source)
     return recorder, data_queue, audio_source, audio_model, temp_file
 
+# generate adjacency matrix for shortest path algorithm using set number of rows and columns. nodes are 1 meter apart in both x and y dims
 def generate_adjacency_matrix(rows, cols):
     adjacency_matrix = np.zeros((rows * cols, rows * cols))
     for i in range(rows):
@@ -120,19 +127,20 @@ def generate_adjacency_matrix(rows, cols):
                 # check up-left
                 if i < rows - 1:
                     adjacency_matrix[node][node + cols - 1] = np.sqrt(2)
-    # this is the start node. it is connected to every node in the first row. it is positioned in the middle of the grid row, and is euclidean distance away from each node
-    # start_node_x = (cols-1) / 2
-    # start_node_y = 0
+    
+    # we start at the center node of the bottom row, so we need to set the distance to the center node to all surrounding nodes
     for i in range(2):
         for j in range(cols):
             node = i * cols + j
-            # adjacency_matrix[0][node] = 1
             node_x_diff = j - (cols-1) / 2
             node_y_diff = i
             distance = np.sqrt(node_x_diff ** 2 + node_y_diff ** 2)
             adjacency_matrix[0][node] = distance
+
     return adjacency_matrix
 
+
+# find the node closest to the center of an object bounding box
 def find_closest_node(box, distance, rows, cols, frame_width, focal_length):
     start_node_x = (cols-1) / 2
     # find distance from center of frame: box center - frame center
@@ -154,27 +162,26 @@ def find_closest_node(box, distance, rows, cols, frame_width, focal_length):
     return node
 
 
+# find the shortest path from start_node to target_node using Dijkstra's algorithm
 def dijkstras(matrix, start_node, target_node, cols):
-    # initialize distance array
+    # initialize distance, visited, and previous arrays
     distance = np.zeros(matrix.shape[0])
     for i in range(distance.shape[0]):
         distance[i] = float('inf')
     distance[start_node] = 0
 
-    # initialize visited array
     visited = np.zeros(matrix.shape[0])
 
-    # initialize previous array
     previous = np.zeros(matrix.shape[0])
 
-    # initialize queue
     queue = []
     queue.append(start_node)
 
+    # while queue is not empty
     while queue:
-        # find node with minimum distance
         min_distance = float('inf')
         min_index = 0
+        # find node with minimum distance
         for i in range(len(queue)):
             if distance[queue[i]] < min_distance:
                 min_distance = distance[queue[i]]
@@ -189,7 +196,7 @@ def dijkstras(matrix, start_node, target_node, cols):
                 if distance[i] > distance[node] + matrix[node][i]:
                     distance[i] = distance[node] + matrix[node][i]
                     previous[i] = node
-                if i not in queue:  # Check if the neighbor is already in the queue before appending it
+                if i not in queue:
                     queue.append(i)
 
     # backtrack to find shortest path
@@ -198,9 +205,10 @@ def dijkstras(matrix, start_node, target_node, cols):
     while node != 0:
         path.append(node)
         node = int(previous[node])
-    # path.append(0)
     path.reverse()
 
+    # find the node that is the furthest from the start node that is still in a straight line
+    # we will travel straight to this node
     straight_shot_node = start_node
     all_cols = []
     for i in range(len(path)):
@@ -212,7 +220,7 @@ def dijkstras(matrix, start_node, target_node, cols):
 
     return path, straight_shot_node
 
-
+# determine the commands to send to the drone to follow the target
 def determine_commands(straight_shot_node, focal_length, cols, start_node):
     if straight_shot_node == start_node:
         return 0, 0
@@ -223,7 +231,6 @@ def determine_commands(straight_shot_node, focal_length, cols, start_node):
     col_diff = straight_col - center_col
     row_diff = straight_row
     euclidean_distance = np.sqrt(col_diff ** 2 + row_diff ** 2)
-    pixel_rotation = int(col_diff / euclidean_distance * focal_length)
 
     # calculate rotation angle x = 90 - arctan(col_diff / row_diff)
     if col_diff == 0:
